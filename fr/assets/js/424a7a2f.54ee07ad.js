@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[27],{99:function(o){o.exports=JSON.parse('{"allTagsPath":"/go-mobile/fr/blog/tags","slug":"hello","name":"hello","count":2,"permalink":"/go-mobile/fr/blog/tags/hello"}')}}]);
