@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[46],{118:function(o){o.exports=JSON.parse('{"allTagsPath":"/go-mobile/fr/blog/tags","slug":"facebook","name":"facebook","count":1,"permalink":"/go-mobile/fr/blog/tags/facebook"}')}}]);

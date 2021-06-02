@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[100],{172:function(e){e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Welcome","permalink":"/go-mobile/fr/blog/welcome"},{"title":"Hello","permalink":"/go-mobile/fr/blog/hello-world"},{"title":"Hola","permalink":"/go-mobile/fr/blog/hola"}]}')}}]);
