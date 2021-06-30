@@ -106,7 +106,7 @@ The part that is going to be duplicated:
                     <!--END_IF_IS_IMAGE-->
                     <!--IF_IS_NOT_IMAGE-->
                     <!-- IF THE DROPPED FIELD IS NOT AN IMAGE, THEN IT WILL BE A TEXT VIEW -->
-                    
+
                     <TextView
                         android:id="@+id/__VALUE_ID__"
                         android:layout_width="0dp"
@@ -289,7 +289,7 @@ Here is the full layout code at this stage :
                     <!--END_IF_IS_IMAGE-->
                     <!--IF_IS_NOT_IMAGE-->
                     <!-- IF THE DROPPED FIELD IS NOT AN IMAGE, THEN IT WILL BE A TEXT VIEW -->
-                    
+
                     <TextView
                         android:id="@+id/__VALUE_ID__"
                         android:layout_width="0dp"
