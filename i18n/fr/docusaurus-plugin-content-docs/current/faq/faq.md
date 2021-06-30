@@ -7,11 +7,11 @@ title: FAQ
 
 
 
-<details><summary style= {{ fontWeight: "bold", marginBottom: "20px" }}>Do I need specific expertise to use 4D for iOS or 4D for Android?</summary>
+<details><summary style= {{ fontWeight: "bold", marginBottom: "20px" }}>Dois-je avoir des connaissances spécialisées pour utiliser 4D for iOS et 4D for Android ?</summary>
 
-No. With 4D for iOS and 4D for Android, you can easily create mobile projects directly from 4D, without needing any prior expertise building native iOS or Android apps!
+Non. Avec 4D for iOS et 4D for Android, vous pouvez facilement créer de nouveaux projets mobiles directement depuis 4D, sans aucune connaissance préalable en matière de création d’applications iOS natives !
 
-The mobile project editor has been designed so that you don't need any specific knowledge in mobile app developement.
+L'éditeur de projet mobile a été conçu de façon à être utilisé sans aucune connaissance spécifique en développement d’applications mobiles.
 
 </details>
 
