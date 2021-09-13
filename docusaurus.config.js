@@ -72,10 +72,10 @@ module.exports = {
           type: "localeDropdown",
           position: "left",
         },
-		{
+  		{
           type: "docsVersionDropdown",
           position: "right",
-		 dropdownActiveClassDisabled: true,
+		 dropdownActiveClassDisabled: false,
 		  dropdownItemsAfter: [
 		  {
 			  href: 'https://developer.4d.com/4d-for-ios', 
@@ -201,7 +201,8 @@ module.exports = {
           // Please change this to your repo.
           editUrl:
 			"https://github.com/4d/go-mobile/edit/main",
-		includeCurrentVersion: true, // false for prod only
+		includeCurrentVersion: false, // false for prod only
+		lastVersion: '19-R3',
         },
         blog: {
           showReadingTime: true,
