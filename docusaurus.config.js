@@ -75,6 +75,7 @@ module.exports = {
 		{
           type: "docsVersionDropdown",
           position: "right",
+		 dropdownActiveClassDisabled: true,
 		  dropdownItemsAfter: [
 		  {
 			  href: 'https://developer.4d.com/4d-for-ios', 
@@ -200,19 +201,6 @@ module.exports = {
           // Please change this to your repo.
           editUrl:
 			"https://github.com/4d/go-mobile/edit/main",
-			lastVersion: '19-R3',
-			versions: {
-				'19-R2':{
-				label: 'v19 R2XXXX',
-				path: '19-R2',
-				banner: 'none',
-				},
-				'19-R3':{
-				label: 'v19 R3 beta',
-				path: '19-R3',
-				banner: 'none',
-				},
-			},
 		includeCurrentVersion: true, // false for prod only
         },
         blog: {
