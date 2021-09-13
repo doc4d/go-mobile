@@ -200,10 +200,16 @@ module.exports = {
           // Please change this to your repo.
           editUrl:
 			"https://github.com/4d/go-mobile/edit/main",
+			lastVersion: '19-R3',
 			versions: {
 				'19-R2':{
-				label: 'v19 R2 beta',
+				label: 'v19 R2XXXX',
 				path: '19-R2',
+				banner: 'none',
+				},
+				'19-R3':{
+				label: 'v19 R3 beta',
+				path: '19-R3',
 				banner: 'none',
 				},
 			},
