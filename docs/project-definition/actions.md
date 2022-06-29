@@ -3,7 +3,7 @@ id: actions
 title: Actions
 ---
 
-This section allows you to:
+This section allows you to: 
 
 * create actions to execute 4D code from your iOS app.
 * define and add parameters to your actions.
