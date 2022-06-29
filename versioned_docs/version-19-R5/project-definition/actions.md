@@ -371,7 +371,7 @@ Here are the different formats available on the generated application:
 
 :::info 4D for Android
 
-This section is currently not available in 4D for Android
+This section is currently not available in 4D for Android.
 
 :::
 
