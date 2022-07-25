@@ -254,32 +254,32 @@ Zymosian, Elmer
 
 ## オフラインモードアクション
 
-The user of an app can draft, store and queue action requests, even if he’s working offline (adding a customer's phone number, uploading a picture, printing an invoice or a quote, deleting an address, etc.).  All these tasks are placed in the Pending actions list until the network is accessible. Once the user is online, all pending actions are consistently synchronized, executed and then visible in the Completed actions list.
+アプリのユーザーはオフライン中でも、アクションリクエストを作成・保存・キューすることが可能です (たとえば、顧客電話番号の追加、写真のアップロード、請求書や見積書の印刷、アドレスの削除など)。  これらのタスクはすべて、ネットワークにアクセスできるようになるまで、保留中アクションのリストに置かれます。 ユーザーがオンラインになると、保留中のアクションはすべて同期され、実行された後、完了したアクションのリストに表示されます。
 
-Pending tasks can be visualized and opened from:
+保留中のタスクは以下にて確認し、開くことができます:
 
-•   *The Settings screen*
+•   *設定画面*
 
-It displays a summary and a history of all pending and completed tasks.
+保留中のタスクや完了したタスクの概要と履歴が表示されます。
 
 ![Action section](img/screen1.png)
 
-•   *The List & Detail forms*
+•   *リスト & 詳細フォーム*
 
-They display all the tasks related to the table or to the entity that you are currently viewing.
+現在閲覧しているテーブルやエンティティに関連するすべてのタスクが表示されます。
 
 ![Action section](img/screen2.png)
 
 :::note notes
 
-- The "Share" predefined action is only executable online
-- Actions are editable while pending, but they can no longer be modified once they switch to the "Completed" mode.
+- プリセットの "共有" アクションは、オンラインでのみ実行可能です。
+- アクションは保留中の間は編集可能ですが、"完了" モードに切り替わると、修正できなくなります。
 
 :::
 
-### Update pending tasks that failed
+### 失敗した保留タスクの更新
 
-Due to your server business logic, some tasks could be rejected. For mobile users, it is then possible to edit and to retry sending the relevant pending tasks. To do so, you can display a status text describing, in the "Complete" actions history, the reason of the failure. For example, you can reject an action sent by a mobile user to the server and inform him that the operation has failed. In that case, you can set the `success` value to `False` and provide a message in `statusText`, as follows:
+サーバーのビジネスロジックにより、一部のタスクが拒否されることがあります。 それらの保留タスクを編集後、モバイルユーザーは送信を再試行できます。 そのために、"完了" アクションの履歴にて、失敗の理由を説明するステータステキストを確認できます。 For example, you can reject an action sent by a mobile user to the server and inform him that the operation has failed. In that case, you can set the `success` value to `False` and provide a message in `statusText`, as follows:
 
  ```4d
  $response:=New object("success"; False; "statusText"; "Operation failed"))
