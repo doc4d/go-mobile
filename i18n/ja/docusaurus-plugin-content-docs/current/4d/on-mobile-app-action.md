@@ -15,7 +15,7 @@ title: On Mobile App Action
 
 The `On Mobile App Action` 4D database method is in charge of managing actions requested by the mobile application for a specific session.
 
-:::note
+:::注
 
 The mobile application must have been authenticated by the [On Mobile App Authentication](on-mobile-app-authentication.md) database method.
 
@@ -49,7 +49,7 @@ The following properties are received in the *mobileInfo* object parameter:
 |               | parent.relationName | テキスト          | (optional, returned if the action is related to a linked entity). One-to-many relation name           |
 |               | parent.dataClass    | テキスト          | (optional, returned if the action is related to a linked entity). Name of the parent 4D dataclass.    |
 
-:::note
+:::注
 
 You can access the [Session object](https://developer.4d.com/docs/en/API/SessionClass.html) automatically created on the 4D server from this database method. You can use this object to control the mobile session.
 
