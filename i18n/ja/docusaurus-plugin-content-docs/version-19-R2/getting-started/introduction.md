@@ -13,7 +13,7 @@ title: 4D go mobile について
 
 また、サーバー側の認証、プッシュ通知などを管理するための有用なメソッドを持つ [**4D Mobile App Server**](https://github.com/4d-for-ios/4D-Mobile-App-Server) コンポーネントも同時に提供されいます。
 
-:::note
+:::注
 
 iOSアプリのビルドには macOS版4D が必要です。
 
