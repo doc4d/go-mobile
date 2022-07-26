@@ -72,7 +72,7 @@ title: 要件
 | 19 R3 | [Arctic fox 2020.3.1](https://developer.android.com/studio/archive) | Windows 10 64-bit |
 | 19 R2 | [4.1.2](https://developer.android.com/studio/archive)               | Windows 10 64-bit |
 
-:::note
+:::注
 
 Android アプリは Mac と Windows のどちらでもビルド可能です。
 
