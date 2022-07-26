@@ -14,7 +14,7 @@ title: On Mobile App Authentication
 
 The `On Mobile App Authentication` 4D database method is in charge of managing mobile app authentication to 4D Server or 4D. It is automatically called by 4D when a user agent sends a login request to 4D Server or 4D for the first time.
 
-:::note
+:::注
 
 A user agent is defined by an application ID, a device ID, and a team ID. These ids are passed to the `On Mobile App Authentication` database method (see below). :::
 
@@ -58,7 +58,7 @@ The following properties are received in the *mobileInfo* object parameter:
 |             | ip          | テキスト   | Client IP address                                                                                     |
 
 
-:::note
+:::注
 
 You can access the [Session object](https://developer.4d.com/docs/en/API/SessionClass.html) automatically created on the 4D server from this database method. You can use this object to control the mobile session. If the server is restarted, the id and privileges of existing mobile sessions are automatically restored. Other session properties such as `Storage`, `expirationDate` and `idleTimeout` are reset.
 
