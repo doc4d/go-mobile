@@ -29,7 +29,7 @@ To do so, in the Project editor, make sure you have plugged your smartphone, the
 
 ![AndroidDevice](img/phone-selection.png)
 
-:::note
+:::注
 
 The **Updating the list of devices...** button enables to refresh the list of available devices.
 
@@ -37,7 +37,7 @@ The **Updating the list of devices...** button enables to refresh the list of av
 
 4D shall then build the application and install it on the connected device.
 
-:::note
+:::注
 
 If you're an Android developer, you need to add an extra step to the debug process. More details [here](from-your-android-device-and-android-studio.md).
 
