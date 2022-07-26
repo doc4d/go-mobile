@@ -72,7 +72,7 @@ For example, in a Contact app, if a contact’s specific information (*i.e.* a c
 
 Here's an example of the default behaviour, a `dataSynchro` request with the `open()` method:
 
-:::note
+:::注
 
 For `open()` method exclusively, this is the default behaviour. As a result, if you don't specify the `dataSynchro` boolean value, it is `true` by default.
 
