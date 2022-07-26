@@ -59,7 +59,7 @@ title: ラベル & アイコン
 <my4DProjetFolder>/Resources/Mobile/medias
 ```
 
-:::note
+:::注
 
 `medias` フォルダを作成する必要もあるかもしれません。
 
