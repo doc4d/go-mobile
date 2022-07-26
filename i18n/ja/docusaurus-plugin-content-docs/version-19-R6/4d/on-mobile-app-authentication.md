@@ -14,7 +14,7 @@ title: On Mobile App Authentication
 
 The `On Mobile App Authentication` 4D database method is in charge of managing mobile app authentication to 4D Server or 4D Developer. It is automatically called by 4D when a user agent sends a login request to 4D Server or 4D Developer for the first time.
 
-:::note
+:::注
 
 A user agent is defined by an application ID, a device ID, and a team ID. These ids are passed to the `On Mobile App Authentication` database method (see below). :::
 
