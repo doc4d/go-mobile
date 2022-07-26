@@ -398,25 +398,25 @@ Zymosian, Elmer
 
 ### 失敗した保留タスクの更新
 
-サーバーのビジネスロジックにより、一部のタスクが拒否されることがあります。 それらの保留タスクを編集後、モバイルユーザーは送信を再試行できます。 そのために、"完了" アクションの履歴にて、失敗の理由を説明するステータステキストを確認できます。 For example, you can reject an action sent by a mobile user to the server and inform him that the operation has failed. In that case, you can set the `success` value to `False` and provide a message in `statusText`, as follows:
+サーバーのビジネスロジックにより、一部のタスクが拒否されることがあります。 それらの保留タスクを編集後、モバイルユーザーは送信を再試行できます。 そのために、"完了" アクションの履歴にて、失敗の理由を説明するステータステキストを確認できます。 たとえば、モバイルユーザーがサーバーに送信したアクションを拒否し、操作に失敗したことを通知することができます。 その場合、以下のように `success` の値を `False` に設定し、 `statusText` にメッセージを設定することができます:
 
  ```4d
- $response:=New object("success"; False; "statusText"; "Operation failed"))
+ $response:=New object("success"; False; "statusText"; "操作に失敗しました"))
  ```
- You can even add some errors by action parameters for the `alphaField` parameter, for example:
+ アクション引数ごとのエラーを追加することもできます。たとえば、`alphaField` 引数について:
 
   ```4d
-$response.errors:=New collection(New object("parameter"; "alphaField"; "message"; "Alpha field must contains a valide value")
+$response.errors:=New collection(New object("parameter"; "alphaField"; "message"; "Alpha フィールドの値が無効です")
   ```
 
 
-## iOS app Side
+## iOSアプリ側
 
-In your iOS app, actions are available in different ways in your List and Detail forms, depending on the templates you select in the Forms section.
+iOSアプリでは、フォームセクションで選択したテンプレートに応じて、リストおよび詳細フォームで様々にアクションを利用できます。
 
-### Table List forms
+### テーブルリストフォーム
 
-* **Entity action:** Swipe left on a cell to display the available actions in a List form. A "More" button is displayed if you've defined more than three actions per entity.
+* **エンティティアクション:** セルを左にスワイプすると、利用可能なアクションがリスト形式で表示されます。 A "More" button is displayed if you've defined more than three actions per entity.
 
 ![Entity Lisform Tableview](img/ListForm-entity-action-tableview.png)
 
