@@ -34,7 +34,7 @@ title: 4D で最初のモバイルアプリを作成しましょう！
 
 上部のメニューから **新規 ＞ モバイルプロジェクト** を選択します。 ようこそ画面が開いたら、モバイルプロジェクトに名前をつけましょう。 
 
-![Project Name](img/new-project.png)
+![プロジェクト名](img/new-project.png)
 
 **続ける** をクリックします。
 
@@ -104,7 +104,7 @@ Windows では、**Android** のみ利用可能です。 macOS では、**Androi
 * テーブルアイコンを定義するには、テーブルの **アイコン** カラムをクリックします。 アイコンライブラリーが表示され、テーブルやフィールドを説明するアイコンを選択することができます。 また、アイコンを指定しない場合、デフォルトのアイコンが生成されます。
 * フィールドのアイコンを少なくとも 1つを選択しましょう。残りのフィールドについては、エディターがデフォルトのアイコンを生成します。 また、すべてのフィールドを空にすることで、フィールドアイコンを表示させないこともできます。
 
-![Icons & Labels](img/Contact-app-icons-labels-section-4D-for-iOS.png)
+![ラベル＆アイコン](img/Contact-app-icons-labels-section-4D-for-iOS.png)
 
 
 
@@ -115,23 +115,23 @@ Windows では、**Android** のみ利用可能です。 macOS では、**Androi
 
 * レコードをリスト形式で表示するために、listビューのテンプレートを選択します。 ここでは、**Profile** テンプレートを使用しましょう。
 
-![List form template](img/ListformTemplate-form-section-4D-for-iOS.png)
+![リストフォームのテンプレート](img/ListformTemplate-form-section-4D-for-iOS.png)
 
 テンプレートを選択すると、設定画面の下半分がテンプレートのリストからデザイン画面に切り替わります。
 
 * 表示させたいフィールドをテンプレートにドラッグ＆ドロップします。Last Name を "検索に使用するフィールド" と "タイトル" にドロップしましょう。 "検索に使用するフィールド" および "セクションとして使用するフィールド" の使用は任意です。ここでは、セクションフィールドを未定義のままにします。
 
-![List form content](img/ListformContent-form-section-4D-for-iOS.png)
+![リストフォームの中身](img/ListformContent-form-section-4D-for-iOS.png)
 
 あとは詳細フォームを決めるだけです。 
 
 * アプリのコンセプトにふさわしいデザインを選ぶようにしてください。 ここでは、**Visual Contact** テンプレートを使用しましょう。
 
-![Detail form template](img/DetailformTemplate-form-section-4D-for-iOS.png)
+![詳細フォームのテンプレート](img/DetailformTemplate-form-section-4D-for-iOS.png)
 
 * 詳細フォームテンプレートの適切な場所にフィールドをドラッグ＆ドロップします: Photo は "ピクチャー"、First Name は "フィールド1"、Last Name は "フィールド2"。
 
-![Detail form content](img/DetailformContent-form-section-4D-for-iOS.png)
+![詳細フォームの中身](img/DetailformContent-form-section-4D-for-iOS.png)
 
 
 
@@ -140,19 +140,19 @@ Windows では、**Android** のみ利用可能です。 macOS では、**Androi
 おつかれさまでした！ デザインしたアプリをビルドして、シミュレーターで動かしてみましょう！
 
 * 画面を **ビルド** タブに切り替えます。
-* Select a device to use as a Simulator by clicking on the device button.
-* Click  **Build and Run**.
-* Wait a few seconds and... voila! Your mobile app is alive!
+* 機種ボタンをクリックして、シミュレーターで起動するデバイスのモデルを選びます。
+* **ビルドして実行** をクリックします。
+* そのまま待っていると… モバイルアプリの完成です！
 
 ![ビルドして実行](img/Build-the-app-simulator.png)
 
 
 
-## Where to go from here?
+## これからどうする？
 
-We've covered basic app creation in this tutorial, and you should now be able to create simple apps on your own. Of course, many other options and features are available. Right now, you can click on **Final Project** below to download the final Contact app.
+このチュートリアルでは、アプリの基本的な作り方を紹介しました。ほんとうに手軽に作れる、という手応えが得られたのではないでしょうか。 もちろん、他にもさまざまなオプションや機能を用意しています。 下の **完成プロジェクト** をクリックすると、完成した Contact アプリをダウンロードできます。
 
 <div>
 <a className="button button--primary"
-href="https://github.com/4d-go-mobile/tutorial-ContactApp/releases/latest/download/tutorial-ContactApp.zip">FINAL PROJECT</a>
+href="https://github.com/4d-go-mobile/tutorial-ContactApp/releases/latest/download/tutorial-ContactApp.zip">完成プロジェクト</a>
 </div>
