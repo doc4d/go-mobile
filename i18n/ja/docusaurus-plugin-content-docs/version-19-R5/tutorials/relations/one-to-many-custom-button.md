@@ -153,7 +153,7 @@ Each storyboard element has an Object ID. For example, if you select Field View 
 
 おつかれさまでした！ 表示したいリレーションが複数あったとしても，このボタンを複製して使用することができるようになりました。
 
-## Where to go from here?
+## これからどうする？
 
 このチュートリアルでは，カスタムリレーションボタンを作成する方法を習得しました。 カスタムボタンの完成プロジェクトは下記のリンクからダウンロードすることができます。
 
