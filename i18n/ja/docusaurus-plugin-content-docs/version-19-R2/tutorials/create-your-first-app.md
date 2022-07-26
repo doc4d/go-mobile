@@ -55,7 +55,7 @@ Androidプロジェクトの開発には、追加のコンポーネントが必�
 
 * **ターゲットOS:** ビルドするモバイルプラットフォーム
 
-:::note
+:::注
 
 Windows では、**Android** のみ利用可能です。 macOS では、**Android** と **iOS** の両方を選択できます。 
 
@@ -92,7 +92,7 @@ Windows では、**Android** のみ利用可能です。 macOS では、**Androi
 
 ## ⒌ ラベル & アイコンページ
 
-:::note
+:::注
 
 [**データ**](project-definition/data.md) と [**アクション**](project-definition/actions.md) ページでは、アプリのデータを設定したり、サーバー上のコードをトリガーしたりできます。 今回は、シンプルにするために、デフォルトの動作を使用します。 
 
