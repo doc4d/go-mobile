@@ -15,7 +15,7 @@ title: On Mobile App Action
 
 The `On Mobile App Action` 4D database method is in charge of managing actions requested by the mobile application for a specific session.
 
-:::note
+:::注
 
 The mobile application must have been authenticated by the [On Mobile App Authentication](https://doc4d.github.io/go-mobile/docs/next/4d/on-mobile-app-authentication) database method.
 
