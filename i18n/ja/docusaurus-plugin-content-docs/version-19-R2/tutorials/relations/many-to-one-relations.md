@@ -6,7 +6,7 @@ title: N対1リレーション
 
 This tutorial will show you how easy it can be to include Many to one relations in your mobile projects.
 
-:::note
+:::注
 
 In this tutorial, we will use the relation names between your tables. Giving descriptive relation names can make your project structure definition easier.
 
