@@ -74,7 +74,7 @@ To do so, you just have to open your Xcode project/Settings/Settings.plist
 
 :::info
 
-To use this feature, you need to make sure that your [apple device has developement mode enabled](../apple-device-devmode.md)
+Before using this feature, please make sure that the [developement mode is enabled](../apple-device-devmode.md) on your apple device.
 
 :::
 
