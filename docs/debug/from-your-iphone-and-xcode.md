@@ -70,7 +70,9 @@ To do so, you just have to open your Xcode project/Settings/Settings.plist
 * prefixes[.error] = "🔴"
 * prefixes[.severe] = "⚫"
 
-##Debug from your iPhone
+## Debug from your iPhone
+
+[Before that you must ensure that your apple device has developement mode enabled](../apple-device-devmode.md)
 
 From your app, if you have a crash, you can display, edit and send feedback. 
 
