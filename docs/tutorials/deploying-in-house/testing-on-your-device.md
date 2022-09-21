@@ -74,7 +74,11 @@ You need [Apple configurator 2](https://itunes.apple.com/us/app/apple-configurat
 
 ## STEP 6. Installation
 
-[Before that you must ensure that your apple device has developement mode enabled](../apple-device-devmode.md)
+:::info
+
+Before going further, please make sure that the [developement mode is enabled](../apple-device-devmode.md) on your apple device.
+
+:::
 
 ### Install automatically with Apple Configurator 2
 
