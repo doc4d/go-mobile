@@ -29,7 +29,7 @@ Les prérequis système sont identiques aux [prérequis système basiques de 4D]
 
 [Apple configurator 2](https://itunes.apple.com/us/app/apple-configurator-2/id1037126344) installé sur votre Mac (facultatif).
 
-Tableau de versions :
+Version table:
 
 | 4D    | Swift | iOS  | Xcode                                                                                                         | macOS   |
 | ----- | ----- | ---- | ------------------------------------------------------------------------------------------------------------- | ------- |
@@ -79,7 +79,7 @@ Vous devez essentiellement basculer le "Developer Mode" interrupteur dans l'appl
 
 ## Android
 
-Tableau de versions :
+Version table:
 
 | 4D    | Android Studio                                                      | Windows           |
 | ----- | ------------------------------------------------------------------- | ----------------- |
