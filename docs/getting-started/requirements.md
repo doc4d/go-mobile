@@ -5,7 +5,18 @@ title: Requirements
 
 4D for iOS and 4D for Android require a specific minimum configuration.
 
-![Welcome page](img/welcome-page.png)
+
+## Installation
+
+By default, the 4D for Mobile component is not installed in your 4D environment. You need to download and copy the component files in the projects where you want to use it.
+
+1. Connect to the [4D repository on Github](https://github.com/4d) and download the following components:
+- [4D Mobile App](https://github.com/4d/4d-mobile-app) (mandatory)
+- [4D Mobile App Server](https://github.com/4d/4D-Mobile-App-Server) (recommended)
+2. Copy the downloaded files into the [`Components` folder](https://developer.4d.com/docs/Project/architecture#components) of your project. You can use aliases or shortcuts.
+3. Launch your 4D application.
+
+If the 4D Mobile App component has been correctly loaded, the **New>Mobile Project** and **Open>Mobile Project** commands are available in the **File** menu and the toolbar. 
 
 
 ## System requirements
