@@ -21,7 +21,7 @@ Aparecen elementos del menú de depuración adicionales para el [simulador selec
 * **Abrir carpeta del simulador de aplicaciones**: abre un submenú para cada aplicación
 
 
-## How to debug your app
+## Cómo depurar su aplicación
 
 Once your app is complete and the simulator’s result is satisfactory, you may want to test it on your smartphone, whether you're working on 4D for iOS or 4D for Android..
 
