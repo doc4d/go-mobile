@@ -23,22 +23,22 @@ Aparecen elementos del menú de depuración adicionales para el [simulador selec
 
 ## Cómo depurar su aplicación
 
-Once your app is complete and the simulator’s result is satisfactory, you may want to test it on your smartphone, whether you're working on 4D for iOS or 4D for Android..
+Una vez que la aplicación esté completa y el resultado del simulador sea satisfactorio, tal vez quiera probarlo en su smartphone, si está trabajando en 4D for iOS o 4D for Android.
 
-To do so, in the Project editor, make sure you have plugged your smartphone, then select your physical device from the list and click on the “Build and Run" button.
+Para ello, en el editor del proyecto, asegúrese de que ha conectado su smartphone, luego seleccione su dispositivo físico de la lista y haga clic en el botón “Compilar y ejecutar”.
 
 ![AndroidDevice](img/phone-selection.png)
 
 :::nota
 
-The **Update the list of devices...** button enables to refresh the list of available devices.
+El botón **Actualizar la lista de dispositivos...** permite actualizar la lista de dispositivos disponibles.
 
 :::
 
-4D shall then build the application and install it on the connected device.
+4D creará entonces la aplicación y la instalará en el dispositivo conectado.
 
 :::nota
 
-If you're an Android developer, you need to add an extra step to the debug process. More details [here](from-your-android-device-and-android-studio.md).
+Si es un desarrollador Android, necesita añadir un paso extra al proceso de depuración. Más detalles [aquí](from-your-android-device-and-android-studio.md).
 
 :::
