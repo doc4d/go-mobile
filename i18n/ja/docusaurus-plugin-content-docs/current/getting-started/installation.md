@@ -13,7 +13,7 @@ title: インストール
 使用するには、まず **4D Mobile App** コンポーネントをプロジェクトにインストールする必要があります。
 
 1. github の [最新リリース](https://github.com/4d/4D-Mobile-App/releases/latest) から、パッケージ化およびコンパイルされた 4D-Mobile-App をダウンロードします。
-2. ダウンロードしたファイルをプロジェクトの [Components](https://developer.4d.com/docs/ja/Project/architecture#components) フォルダーにコピーします。
+2. ダウンロードしたファイルをプロジェクトの [Components](https://developer.4d.com/docs/ja/Project/architecture#components) フォルダーにコピーします。Components フォルダーを作成する場合、Project フォルダーと同階層に置きます。
 3. (任意) 必要に応じて、[**4D Mobile App Server**](https://github.com/4d/4D-Mobile-App-Server#4d-mobile-app-server) コンポーネントをダウンロードして同じ場所にインストールします。
 3. 4D でプロジェクトを開きます。
 

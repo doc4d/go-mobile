@@ -1,6 +1,6 @@
 ---
 id: from-your-iphone-and-xcode
-title: From your iPhone and Xcode
+title: Desde su iPhone y Xcode
 ---
 
 ## Debug from Xcode
